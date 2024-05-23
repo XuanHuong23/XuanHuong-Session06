@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+}
+
+.head {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    width: 750px;
+    margin: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 110px;
+}
+
+.container h2,
+.container p {
+    padding: 10px;
+}
+
+.container button {
+    padding: 8px;
+}
+
+.main {
+    background-color: #007bff;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.action {
+    background-color: #6c757d;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.content {
+    background-color: #f7f8f9;
+}
+
+.parent {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 25px;
+}
+
+.parent-1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.child {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+.child-title {
+    width: 250px;
+    height: 170px;
+    background-color: #55595c;
+    text-align: center;
+    padding-top: 72px;
+    color: white;
+}
+
+.child-content {
+    width: 250px;
+    font-size: 12px;
+    position: relative;
+    padding: 5px;
+}
+
+.child-content span {
+    position: absolute;
+    bottom: 1px;
+    right: 12px;
+}

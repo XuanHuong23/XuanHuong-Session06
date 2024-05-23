@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-container {
+    border: 1px solid rgb(172, 167, 167);
+}
+
+.accordion {
+    background-color: #e9f2ff;
+    color: #1924f4;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.container {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}

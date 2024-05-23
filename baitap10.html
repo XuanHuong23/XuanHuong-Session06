@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap 10</title>
+    <link rel="stylesheet" href="./baitap10.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Billing address</h3>
+        <div class="first-content">
+            <label for="firstname">First name</label>
+            <label for="lastname">Last name</label>
+            <br>
+            <input type="text" />
+            <input type="text" />
+        </div>
+        <div class="second-content">
+            <label for="usename">Usename</label><br />
+            <p>@</p><input type="text" value="Usename" />
+        </div>
+        <div class="thirt-content">
+            <label for="Email">Email(Optional)</label><br />
+            <input type="text" value="you@example.com" />
+            <br />
+            <label for="Address">Address</label><br />
+            <input type="text" value="1234 Main St" />
+            <br />
+            <label for="Address2">Address(Optional)</label><br />
+            <input type="text" value="Apartment or suite" />
+        </div>
+        <div class="four-content">
+            <label for="country">Country</label>
+            <label for="State">State</label>
+            <label for="zip">Zip</label>
+            <br />
+            <select name="country" id="">
+                <option value="choose">Choose...</option>
+                <option value="Japan">Japan</option>
+                <option value="Korean">Korean</option>
+                <option value="VietNam">VietNam</option>
+            </select>
+            <select name="country" id="">
+                <option value="choose">Choose...</option>
+                <option value="danang">DaNang</option>
+            </select>
+            <input type="text" />
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" /> Shipping address is the same as my billing address
+            <br />
+            <input type="checkbox" /> Save this information for next time
+        </div>
+        <div class="footer-content">
+            <h3>Payment</h3>
+            <input type="checkbox" id="payment" /> Credit card <br />
+            <input type="checkbox" id="payment" /> Debit card <br />
+            <input type="checkbox" id="payment" /> Paypal <br />
+        </div>
+        <div class="first-content">
+            <label for="name">Name of card</label>
+            <label for="credit">Credit card number</label>
+            <br />
+            <input type="text" />
+            <input type="text" />
+        </div>
+        <p>Full name as displayed on card</p>
+        <div class="last-content">
+            <label for="Expriration">Expriration</label>
+            <label for="CVV">CVV</label>
+            <br />
+            <input type="text" />
+            <input type="text" />
+        </div>
+        <div class="button">
+            <button>Continue to checkout</button>
+        </div>
+    </div>
+</body>
+
+</html>
